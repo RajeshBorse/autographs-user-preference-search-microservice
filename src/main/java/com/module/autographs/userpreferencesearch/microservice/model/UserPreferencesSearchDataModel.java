@@ -3,7 +3,7 @@ package com.module.autographs.userpreferencesearch.microservice.model;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document(collection = "UserPreferencesCollection")
+@Document(collection = "userPreferencesCollection")
 public class UserPreferencesSearchDataModel {
 
     @Id
